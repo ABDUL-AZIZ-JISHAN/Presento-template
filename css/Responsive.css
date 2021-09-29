@@ -1,0 +1,126 @@
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+/* header section */
+@media (max-width: 992px) {
+  #header {
+    padding: 12px 0;
+  }
+  #header .logo {
+    font-size: 28px;
+  }
+}
+
+/* Navigation Section */
+@media (max-width: 1366px) {
+  .nav-menu .drop-down .drop-down ul {
+    left: -90%;
+  }
+  .nav-menu .drop-down .drop-down:hover > ul {
+    left: -100%;
+  }
+  .nav-menu .drop-down .drop-down > a:after {
+    content: "\ea9d";
+  }
+}
+
+/* Get Started btn */
+@media (max-width: 992px) {
+  .get-started-btn {
+    margin: 0 48px 0 0;
+    padding: 6px 18px;
+  }
+}
+
+/* Hero Section */
+@media (max-width: 768px) {
+  #hero {
+    text-align: center;
+    padding-top: 58px;
+  }
+  #hero h1 {
+    font-size: 28px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (max-height: 500px) {
+  #hero {
+    height: 120vh;
+  }
+}
+
+/* About Section */
+@media (max-width: 1200px) {
+  .about .content {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    text-align: center;
+  }
+}
+
+/* Tabs Section */
+@media (max-width: 768px) {
+  .tabs .nav-link i {
+    padding: 0;
+    line-height: 1;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 575px) {
+  .tabs .nav-link {
+    padding: 15px;
+  }
+  .tabs .nav-link i {
+    font-size: 24px;
+  }
+}
+
+/* Testimonial Section */
+@media (max-width: 767px) {
+  .testimonials .testimonial-wrap {
+    padding-left: 0;
+  }
+  .testimonials .testimonial-item {
+    padding: 30px;
+    margin: 15px;
+  }
+  .testimonials .testimonial-item .testimonial-img {
+    position: static;
+    left: auto;
+  }
+}
+
+/* Breadcrumbs */
+
+@media(max-width: 992px){
+  .breadcrumbs{
+    margin-top: 57px;
+  }
+}
+
+/* Portfolio Details */
+
+@media(max-width: 768px){
+  .portfolio-details .portfolio-description h2{
+    width: 100%;
+  }
+  .portfolio-details .portfolio-info{
+    position: static;
+    margin-top: 30px;
+  }
+}
